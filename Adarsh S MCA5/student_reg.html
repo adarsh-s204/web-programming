@@ -1,0 +1,169 @@
+<html>
+<head>
+	<title>FORM</title>
+</head>
+	<body>
+		<h3 align="center"><b>STUDENT REGISTRATION FORM</b></h3>
+		<center>
+		<form>
+		<table style="border:1px solid #000 ;border collapse:sperate;border-spacing:1; width:60%;">
+		<tr>
+			<th style="border:1px solid #000;padding:8px;text-align:left;">
+			<label>First Name</label>
+			</th>
+			<td style="border:1px solid #000;padding:8px;text-align:left;">
+			<input type="text" id="first_name" maxlength="30" required>
+			(max 30 characters)
+			</td>
+		</tr>
+		
+		<tr>
+			<th style="border:1px solid #000;padding:8px;text-align:left;">
+			<label>LastName</label>
+			</th>
+			<td style="border:1px solid #000;padding:8px;text-align:left;">
+			<input type="text" id="last_name" maxlength="30" required>
+			(max 30 characters)
+			</td>
+		</tr>
+		
+		<tr>
+			<th style="border:1px solid #000;padding:8px;text-align:left;">
+			<label>DOB</label>
+			</th>
+			<td style="border:1px solid #000;padding:8px;text-align:left;">
+			<input type="date" id="dob" required>
+			</td>
+		</tr>
+		
+		
+		<tr>
+			<th style="border:1px solid #000;padding:8px;text-align:left;">
+			<label>Email ID</label>
+			</th>
+			<td style="border:1px solid #000;padding:8px;text-align:left;">
+			<input type="email" id="email" required>
+			</td>
+		</tr>
+		
+		<tr>
+			<th style="border:1px solid #000;padding:8px;text-align:left;">
+			<label>Mobile Number</label>
+			</th>
+			<td style="border:1px solid #000;padding:8px;text-align:left;">
+			<input type="tel" id="mobile_no" maxlength="12" required>
+			(10 digit number)
+			</td>
+		</tr>
+		
+		
+		<tr>
+			<th style="border:1px solid #000;padding:8px;text-align:left;">
+			<label>Gender</label>
+			</th>
+			<td style="border:1px solid #000;padding:8px;text-align:left;">
+			<input type="radio" id="male" name="gender" value="male" required>
+			<label for="male">Male</label>&nbsp&nbsp&nbsp&nbsp
+			<input type="radio" id="female" name="gender" value="female" required>
+			<label for="female">Female</label>
+			</td>
+		</tr>
+		
+		<tr>
+			<th style="border:1px solid #000;padding:8px;text-align:left;">
+			<label>ADDRESS</label>
+			</th>
+			<td style="border:1px solid #000;padding:8px;text-align:left;">
+			<textarea id="address" name="address" rows="4" cols="50" required></textarea>
+			</td>
+		</tr>
+		
+		<tr>
+			<th style="border:1px solid #000;padding:8px;text-align:left;">
+			<label>City</label>
+			</th>
+			<td style="border:1px solid #000;padding:8px;text-align:left;">
+			<input type="text" id="city" maxlength="30" required>
+			(max 30 characters)
+			</td>
+		</tr>
+		
+		
+		<tr>
+			<th style="border:1px solid #000;padding:8px;text-align:left;">
+			<label>Pin Code</label>
+			</th>
+			<td style="border:1px solid #000;padding:8px;text-align:left;">
+			<input type="text" id="pin" maxlength="6" required>
+			(max 6 characters)
+			</td>
+		</tr>
+		
+		
+		<tr>
+			<th style="border:1px solid #000;padding:8px;text-align:left;">
+			<label>State</label>
+			</th>
+			<td style="border:1px solid #000;padding:8px;text-align:left;">
+			<input type="text" id="state" maxlength="30" required>
+			(max 30 characters)
+			</td>
+		</tr>
+		
+		
+		<tr>
+			<th style="border:1px solid #000;padding:8px;text-align:left;">
+			<label>Country</label>
+			</th>
+			<td style="border:1px solid #000;padding:8px;text-align:left;">
+			<select id="country" name="country">
+				<option value="india">India</option>
+				<option value="USA">USA</option>
+				<option value="UK">UK</option>
+				<option value="germany">Germany</option>
+			</select>
+			</td>
+		</tr>
+		
+		<tr>
+			<th style="border:1px solid #000;padding:8px;text-align:left;">
+			<label>Hobbies</label>
+			</th>
+			<td style="border:1px solid #000;padding:8px;text-align:left;">
+			<label>drawing</label>
+			<input type="checkbox" id="draw" name="draw" >&nbsp&nbsp&nbsp&nbsp
+			<label>singing</label>
+			<input type="checkbox" id="sing" name="sing" >&nbsp&nbsp&nbsp&nbsp
+			<label>dancing</label>
+			<input type="checkbox" id="dance" name="dance" >&nbsp&nbsp&nbsp&nbsp
+			<label>others</label>
+			<input type="checkbox" id="oth" name="oth" >&nbsp&nbsp&nbsp&nbsp
+			</td>
+		</tr>
+		
+		
+		<tr>
+			<th style="border:1px solid #000;padding:8px;text-align:left;">
+			<label>Upload your photo</label>
+			</th>
+			<td style="border:1px solid #000;padding:8px;text-align:left;">
+			<input type="file" id="photo" name="photo" accept="image/*" required>
+			
+			</td>
+		</tr>
+		
+		<tr>
+			
+			<td colspan="2" style="border:1px solid #000;padding:8px;text-align:center;">
+			<input type="submit" value="submit">
+			<input type="reset" value="reset">
+			
+			</td>
+		</tr>
+		
+		
+		</table>
+		</form>
+		</center>
+	</body>
+</html>
